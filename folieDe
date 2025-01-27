@@ -18,3 +18,22 @@ void main() { lancerDeMultiple(4);
     nombre= Random().nextInt(6) + 1;
     print("le résultat des $nombreDeLancers lancer est : $nombre");
   }
+  import'dart:math';
+void main() { //lancerDe();
+ lancerDeAvecConditions(4);
+  
+   }
+   lancerDeAvecConditions(int nombreDeLancers){
+  int j = 0 ;
+  while (j < nombreDeLancers){
+    int resultat =  Random().nextInt(6) + 1;
+    if (resultat<3){
+       } else {
+      print(resultat);
+      j ++;
+    }
+     }
+  
+}
+
+  
