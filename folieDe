@@ -6,3 +6,15 @@ int lancerDe() {
  int intValue = Random().nextInt(6) + 1;
   return intValue;
 }
+import'dart:math';
+
+void main() { lancerDeMultiple(4);
+   }
+   lancerDeMultiple(int nombreDeLancers){
+  
+    int i;
+  int nombre;
+  for (i=0;i<nombreDeLancers;i++){
+    nombre= Random().nextInt(6) + 1;
+    print("le résultat des $nombreDeLancers lancer est : $nombre");
+  }
