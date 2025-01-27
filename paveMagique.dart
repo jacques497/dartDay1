@@ -15,3 +15,11 @@ void main() { calculSurfaceBasePave(2.5,5.5);
     print(surfaceBase);
   return(surfaceBase);
 }
+void main() {calculPerimetreBasePave(2,3); 
+  }
+  
+double calculPerimetreBasePave(double longueur, double largeur){
+  double perimetreBase= 2*(longueur+largeur);
+    print(perimetreBase);
+    return(perimetreBase);
+}
