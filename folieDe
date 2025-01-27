@@ -1,0 +1,8 @@
+import'dart:math';
+
+void main() { lancerDe();
+  }
+int lancerDe() {
+ int intValue = Random().nextInt(6) + 1;
+  return intValue;
+}
