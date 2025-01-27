@@ -23,3 +23,13 @@ double calculPerimetreBasePave(double longueur, double largeur){
     print(perimetreBase);
     return(perimetreBase);
 }
+import 'dart:math';
+
+void main() { calculDiagonalePave(5,5,5);
+  
+  }
+  double  calculDiagonalePave(double longueur, double largeur, double hauteur){
+   double diagonalePave=sqrt(pow(longueur,2)+pow(largeur,2)+pow(hauteur,2));
+  print(diagonalePave);
+    return(diagonalePave);
+}
